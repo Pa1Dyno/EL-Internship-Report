@@ -7,9 +7,9 @@
     inet6 <font color="#0000AA">::1</font>/128 scope host noprefixroute 
        valid_lft forever preferred_lft forever
 2: <font color="#00AAAA">eth0: </font>&lt;NO-CARRIER,BROADCAST,MULTICAST,UP&gt; mtu 1500 qdisc fq_codel state <font color="#AA0000">DOWN </font>group default qlen 1000
-    link/ether <font color="#AA5500">98:fa:9b:87:2b:f4</font> brd <font color="#AA5500">ff:ff:ff:ff:ff:ff</font>
+    link/ether <font color="#AA5500">98:fa:b:f4</font> brd <font color="#AA5500">ff:ff:ff:ff:ff:ff</font>
 3: <font color="#00AAAA">wlan0: </font>&lt;BROADCAST,MULTICAST,UP,LOWER_UP&gt; mtu 1500 qdisc noqueue state <font color="#00AA00">UP </font>group default qlen 1000
-    link/ether <font color="#AA5500">d4:d2:52:ae:c0:54</font> brd <font color="#AA5500">ff:ff:ff:ff:ff:ff</font>
+    link/ether <font color="#AA5500">d4:d2c0:54</font> brd <font color="#AA5500">ff:ff:ff:ff:ff:ff</font>
     inet <font color="#AA00AA">192.168.0.113</font>/24 brd <font color="#AA00AA">192.168.0.255 </font>scope global dynamic noprefixroute wlan0
        valid_lft 6900sec preferred_lft 6900sec
     inet6 <font color="#0000AA">fe80::d6d2:52ff:feae:c054</font>/64 scope link noprefixroute 
@@ -31,20 +31,20 @@ PORT     STATE SERVICE
 53/tcp   open  domain
 80/tcp   open  http
 1900/tcp open  upnp
-MAC Address: 60:A4:B7:1F:CE:B4 (TP-Link Limited)
+MAC Address: 60:A4F:B4 (TP-Link Limited)
 
 Nmap scan report for 192.168.0.102
 Host is up (0.0029s latency).
 All 1000 scanned ports on 192.168.0.102 are in ignored states.
 Not shown: 1000 closed tcp ports (reset)
-MAC Address: E8:5A:8B:5B:8A:41 (Xiaomi Communications)
+MAC Address: E8:51 (Xiaomi Communications)
 
 Nmap scan report for 192.168.0.105
 Host is up (0.016s latency).
 Not shown: 999 closed tcp ports (reset)
 PORT     STATE    SERVICE
 5060/tcp filtered sip
-MAC Address: 5E:77:3F:C1:57:05 (Unknown)
+MAC Address: 5E:77:3F: (Unknown)
 
 Nmap scan report for 192.168.0.106
 Host is up (0.023s latency).
@@ -55,13 +55,13 @@ PORT     STATE SERVICE
 445/tcp  open  microsoft-ds
 6646/tcp open  unknown
 7070/tcp open  realserver
-MAC Address: 4C:EB:BD:12:0D:F3 (Chongqing Fugui Electronics)
+MAC Address: 4C:EB:B (Chongqing Fugui Electronics)
 
 Nmap scan report for 192.168.0.107
 Host is up (0.0068s latency).
 All 1000 scanned ports on 192.168.0.107 are in ignored states.
 Not shown: 1000 closed tcp ports (reset)
-MAC Address: F6:89:75:DA:09:9A (Unknown)
+MAC Address: F6:DA:09:9A (Unknown)
 
 Nmap scan report for 192.168.0.113
 Host is up (0.000014s latency).
@@ -86,7 +86,7 @@ PORT     STATE SERVICE VERSION
 53/tcp   open  domain  dnsmasq 2.45
 80/tcp   open  http    TP-LINK WAP http config
 1900/tcp open  upnp    Portable SDK for UPnP devices 1.6.19 (Linux 2.6.36; UPnP 1.0)
-MAC Address: 60:A4:B7:1F:CE:B4 (TP-Link Limited)
+MAC Address: 60:A4:BB4 (TP-Link Limited)
 Device type: general purpose
 Running: Linux 2.6.X
 OS CPE: cpe:/o:linux:linux_kernel:2.6
@@ -123,7 +123,7 @@ PORT     STATE SERVICE         VERSION
 139/tcp  open  netbios-ssn     Microsoft Windows netbios-ssn
 445/tcp  open  microsoft-ds?
 7070/tcp open  ssl/realserver?
-MAC Address: 4C:EB:BD:12:0D:F3 (Chongqing Fugui Electronics)
+MAC Add:F3 (Chongqing Fugui Electronics)
 Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
 Device type: general purpose|phone|specialized
 Running (JUST GUESSING): Microsoft Windows 11|10|2022|2008|Phone|7 (96%)
