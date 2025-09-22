@@ -19,21 +19,14 @@ Common Use-Cases
 •	Exporting scan results for reporting (-oN, -oX, -oA)
 
 
-<img width="783" height="365" alt="image" src="https://github.com/user-attachments/assets/08e80053-b25b-4a4f-9685-a89696591100" />
-
-
-
-
-
+<img width="784" height="365" alt="image" src="https://github.com/user-attachments/assets/e4949cba-9136-4390-a03e-adf44959074e" />
 
 
 Command: ip a
 Description: Displays the system’s network interfaces and assigned IP addresses. Shows loopback (lo), Ethernet (eth0 – down), and Wi-Fi (wlan0) with the local IP 192.168.0.113. This helped identify the subnet (192.168.0.0/24) for scanning.
 
+ <img width="573" height="668" alt="image" src="https://github.com/user-attachments/assets/33115db5-ae2b-485e-95af-1869dbe7b625" />
 
-
-
- <img width="566" height="693" alt="image" src="https://github.com/user-attachments/assets/d89db0cb-f32e-450b-bb96-2105935a829d" />
 
 Command: sudo nmap -sS -T4 192.168.0.0/24
 Description: Conducted a TCP SYN scan on the local network. Multiple devices were detected:
@@ -42,7 +35,8 @@ Description: Conducted a TCP SYN scan on the local network. Multiple devices wer
 •	192.168.0.106 (Windows host) → open SMB/RPC-related ports.
 
 
-<img width="954" height="413" alt="image" src="https://github.com/user-attachments/assets/41f060ef-8879-4b2b-a955-2d519508ba3e" />
+<img width="954" height="409" alt="image" src="https://github.com/user-attachments/assets/bb4b1242-a30a-4d8b-8b8b-52424191418c" />
+
 
 Command: sudo nmap -sV -sS -Pn -T4 192.168.0.106
 Description: Detailed scan of a Windows host. Found open services:
